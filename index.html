@@ -1,40 +1,87 @@
-<!DOCTYPE html>
-<html lang="ru">
+
+<!doctype html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Мое Резюме</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Mikhail Banchenko — Resume</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <header>
-        <h1>Иван Иванов</h1>
-        <p>Frontend-разработчик | Контакт: ivan@example.com</p>
+  <div class="container">
+    <header class="header">
+      <div class="name">
+        <h1>Mikhail Banchenko</h1>
+        <p class="role">Web / PHP Developer (Junior)</p>
+      </div>
+      <div class="contact">
+        <p>📍 Liesingbachstrasse 229, 1100 Vienna, Austria</p>
+        <p>📞 +43 676 6469841</p>
+        <p>✉️ <a href="mailto:alonerealruby@gmail.com">alonerealruby@gmail.com</a></p>
+        <p>📄 <a href="CV(EN).pdf" download>Download CV (PDF)</a></p>
+      </div>
     </header>
 
-    <section id="about">
-        <h2>О себе</h2>
-        <p>Кратко о твоем опыте, навыках и интересах.</p>
-    </section>
+    <main>
+      <section class="about">
+        <h2>About me</h2>
+        <p>I have been involved in programming in various fields for 8 years. Recently I have focused on web development, especially PHP backend. I am eager to further develop my skills and take on new challenges by gaining practical experience. My soft skills include stress resilience, fast learning, and strong teamwork.</p>
+        <p><strong>Languages:</strong> Russian (native) · English (B2) · German (B2)</p>
+      </section>
 
-    <section id="experience">
-        <h2>Опыт работы</h2>
+      <section class="skills">
+        <h2>Skills</h2>
         <ul>
-            <li>Компания А — Frontend-разработчик (2022–2025)</li>
-            <li>Компания Б — Стажер (2021–2022)</li>
+          <li>PHP (including Laravel)</li>
+          <li>SQL (including MySQL)</li>
+          <li>JavaScript (including React)</li>
+          <li>Git (including GitHub)</li>
+          <li>HTML &amp; CSS</li>
+          <li>Microsoft Visual Studio, OpenServer</li>
         </ul>
-    </section>
+      </section>
 
-    <section id="projects">
-        <h2>Проекты</h2>
+      <section class="experience">
+        <h2>Professional experience</h2>
+
+        <article class="job">
+          <h3>PHP (Laravel) Web Development Internship — YUMINA LLC</h3>
+          <p class="meta">Pyt-Yakh, Russia · Apr 2025 – Jun 2025</p>
+          <p>Supported the web application and performed troubleshooting as part of a team.</p>
+        </article>
+
+        <article class="job">
+          <h3>PHP Web Development Internship — YUMINA LLC</h3>
+          <p class="meta">Pyt-Yakh, Russia · Apr 2024 – Jun 2024</p>
+          <p>Supported and tested web application functionality under the guidance of senior developers.</p>
+        </article>
+
+        <article class="job">
+          <h3>Web Development Internship — Private Institute "Prestige"</h3>
+          <p class="meta">Nefteyugansk, Russia · May 2023 – Jun 2023</p>
+          <p>Bug fixing and maintenance of legacy code.</p>
+        </article>
+      </section>
+
+      <section class="education">
+        <h2>Education</h2>
         <ul>
-            <li>Проект 1 — <a href="#">ссылка</a></li>
-            <li>Проект 2 — <a href="#">ссылка</a></li>
+          <li><strong>S. Y. Witte Moscow University</strong> — Information Systems and Programming (Aug 2021 – Present)</li>
+          <li><strong>JugendCollege, Vienna</strong> — ÖIF Certificate, B2 German Course (Jun 2025 – Sep 2025)</li>
+          <li><strong>JugendCollege, Vienna</strong> — Austrian Compulsory School Completion (Sep 2024 – May 2025)</li>
+          <li><strong>JugendCollege, Vienna</strong> — Certificate, Financial Literacy (Apr 2025)</li>
         </ul>
-    </section>
+      </section>
 
-    <footer>
-        <p>Контакты: ivan@example.com | <a href="https://github.com/username">GitHub</a></p>
+      <section class="personal">
+        <h2>Personal</h2>
+        <p><strong>Date of birth:</strong> June 10, 2005</p>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Built with ❤️ • <a href="https://github.com/">GitHub Pages</a> ready</p>
     </footer>
+  </div>
 </body>
 </html>

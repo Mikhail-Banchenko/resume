@@ -1,0 +1,68 @@
+
+:root{
+  --max-width:900px;
+  --accent:#0b63ff;
+  --muted:#666;
+  --bg:#f7f9fc;
+  --card:#ffffff;
+}
+
+*{box-sizing:border-box}
+body{
+  font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background:var(--bg);
+  color:#111;
+  margin:0;
+  padding:28px 16px;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+
+.container{
+  max-width:var(--max-width);
+  margin:0 auto;
+  background:var(--card);
+  padding:28px;
+  border-radius:12px;
+  box-shadow:0 8px 30px rgba(16,24,40,0.08);
+}
+
+.header{
+  display:flex;
+  gap:20px;
+  flex-wrap:wrap;
+  align-items:center;
+  justify-content:space-between;
+  border-bottom:1px solid #eee;
+  padding-bottom:18px;
+  margin-bottom:18px;
+}
+
+.name h1{margin:0;font-size:1.6rem}
+.name .role{margin:6px 0 0;color:var(--muted)}
+
+.contact p{margin:4px 0;color:var(--muted);font-size:0.95rem}
+
+a{color:var(--accent);text-decoration:none}
+
+main{display:grid;grid-template-columns:1fr;gap:18px}
+
+section h2{margin:0 0 10px 0;font-size:1.05rem;color:#0b2b66}
+
+.skills ul, .education ul{margin:0;padding-left:18px}
+.skills li{margin-bottom:6px}
+
+.job{margin-bottom:12px;padding:12px;border-left:3px solid #e8eefc;background:linear-gradient(180deg, rgba(11,99,255,0.02), transparent);border-radius:6px}
+.job h3{margin:0;font-size:1rem}
+.job .meta{margin:6px 0;color:var(--muted);font-size:0.92rem}
+
+.about p{margin:0 0 8px 0}
+
+.footer{margin-top:18px;padding-top:12px;border-top:1px solid #eee;text-align:center;color:var(--muted);font-size:0.9rem}
+
+/* Responsive */
+@media (min-width:900px){
+  main{grid-template-columns: 2fr 1fr;}
+  .about{grid-column:1 / 2}
+  .skills, .education, .personal{grid-column:2 / 3}
+}
