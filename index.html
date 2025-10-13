@@ -1,101 +1,130 @@
-
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Mikhail Banchenko — Resume</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mikhail Banchenko — Web Developer</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <header class="header">
-      <div class="name-block">
-        <div class="photo">
-          <img src="photo.jpg" alt="Your photo" />
-        </div>
+  <div class="resume-layout">
+    <!-- LEFT SIDEBAR -->
+    <aside class="sidebar">
+      <div class="profile">
+        <img src="photo.jpg" alt="Mikhail Banchenko">
         <h1>Mikhail Banchenko</h1>
-        <span class="role">Web / PHP Developer</span><br>
-        <span class="role">Junior</span>
+        <p class="role">Web / PHP Developer</p>
       </div>
-    </header>
 
-    <main class="main-grid">
-      <!-- LEFT COLUMN -->
-      <aside class="left-column">
-        <section class="about">
-          <h2>About me</h2>
-          <p>I have been programming for over 8 years in various areas. Recently I’ve focused on web development with PHP and backend logic. I’m eager to learn new technologies and improve my skills by gaining practical experience.</p>
-        </section>
-
-        <section class="personal">
-          <h2>Personal Info</h2>
-          <ul>
-            <li><strong>Address:</strong> Liesingbachstrasse 229, 1100 Vienna, Austria</li>
-            <li><strong>Phone:</strong> +43 676 6469841</li>
-            <li><strong>Email:</strong> <a href="mailto:alonerealruby@gmail.com">alonerealruby@gmail.com</a></li>
-            <li><strong>Languages:</strong> Russian (native), English (B2), German (B2)</li>
-            <li><a href="CV(EN).pdf" download>📄 Download CV (PDF)</a></li>
-          </ul>
-        </section>
-
-        <section class="skills">
-          <h2>Skills</h2>
-          <ul>
-            <li>PHP (including Laravel)</li>
-            <li>SQL (MySQL)</li>
-            <li>JavaScript (React)</li>
-            <li>Git (GitHub)</li>
-            <li>HTML & CSS</li>
-            <li>Microsoft Visual Studio, OpenServer</li>
-          </ul>
-        </section>
-      </aside>
-
-      <!-- RIGHT COLUMN -->
-      <section class="right-column">
-        <section class="experience">
-          <h2>Professional Experience</h2>
-          <article class="job">
-            <h3>PHP (Laravel) Web Development Internship — YUMINA LLC</h3>
-            <p class="meta">Pyt-Yakh, Russia · Apr 2025 – Jun 2025</p>
+      <div class="infobar">
+        <div>
+          <div class="info">
             <ul>
-              <li>Supported and maintained a web application, participating in troubleshooting and code improvements.</li>
+              <li><strong>Residence:</strong><span>Austria</span></li>
+              <li><strong>City:</strong><span>Vienna</span></li>
+              <li><strong>Age:</strong><span>20</span></li>
+              <li><strong>Phone:</strong><span>+43 676 6469841</span></li>
+              <li><strong>Email:</strong><span>alonerealruby@gmail.com</span></li>
             </ul>
-          </article>
+          </div>
 
-          <article class="job">
-            <h3>PHP Web Development Internship — YUMINA LLC</h3>
-            <p class="meta">Pyt-Yakh, Russia · Apr 2024 – Jun 2024</p>
+          <div class="languages">
+            <div class="lang-list">
+              <div class="lang">
+                <div class="circle" data-percent="100"><span>C1</span></div>
+                <span>Russian</span>
+              </div>
+              <div class="lang">
+                <div class="circle" data-percent="80"><span>B2</span></div>
+                <span>English</span>
+              </div>
+              <div class="lang">
+                <div class="circle" data-percent="80"><span>B2</span></div>
+                <span>German</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills">
             <ul>
-              <li>Tested and supported web applications, working with a small developer team.</li>
+              <li><span class="main">PHP</span> <span class="additional">(including Laravel)</span></li>
+              <li><span class="main">SQL</span> <span class="additional">(including MySQL)</span></li>
+              <li><span class="main">JavaScript</span> <span class="additional">(including React)</span></li>
+              <li><span class="main">Git</span> <span class="additional">(including GitHub)</span></li>
+              <li><span class="main">CSS</span></li>
+              <li><span class="main">HTML</span></li>
+              <li><span class="main">OpenServer</span></li>
+              <li><span class="main">Microsoft Visual Studio</span></li>
             </ul>
-          </article>
+          </div>
 
-          <article class="job">
-            <h3>Web Development Internship — Private Institute "Prestige"</h3>
-            <p class="meta">Nefteyugansk, Russia · May 2023 – Jun 2023</p>
-            <ul>
-              <li>Performed bug fixing and legacy code maintenance.</li>
-            </ul>
-          </article>
-        </section>
+        </div>
 
-        <section class="education">
-          <h2>Education</h2>
-          <ul>
-            <li><strong>S. Y. Witte Moscow University</strong> — Information Systems and Programming (Aug 2021 – Present)</li>
-            <li><strong>JugendCollege, Vienna</strong> — ÖIF Certificate, B2 German Course (Jun 2025 – Sep 2025)</li>
-            <li><strong>JugendCollege, Vienna</strong> — Austrian Compulsory School Completion (Sep 2024 – May 2025)</li>
-            <li><strong>JugendCollege, Vienna</strong> — Certificate, Financial Literacy (Apr 2025)</li>
-          </ul>
-        </section>
+        <div>
+          <a href="CV(EN).pdf" class="download" download>📄 Download CV</a>
+
+          <div class="social">
+            <a href="#">GitHub</a>
+            <a href="#">LinkedIn</a>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <!-- MAIN CONTENT -->
+    <main class="content">
+      <header class="intro">
+        <h2>Discover my Amazing Web Space!</h2>
+        <p><code>I build modern web applications with PHP and Laravel.</code></p>
+        <a href="#" class="btn">Explore Now</a>
+
+        <div class="stats">
+          <div><strong>8</strong><span>Months Experience</span></div>
+          <div><strong>3</strong><span>Internships</span></div>
+          <div><strong>∞</strong><span>Motivation</span></div>
+        </div>
+      </header>
+
+      <section class="services">
+        <h2>My Services</h2>
+        <div class="service-grid">
+          <div class="service">
+            <h3>Web Development</h3>
+            <p>Building efficient and modern web applications using PHP, Laravel, and MySQL.</p>
+            <a href="#">Order Now →</a>
+          </div>
+          <div class="service">
+            <h3>UI/UX Design</h3>
+            <p>Creating user-friendly and visually appealing interfaces with attention to detail.</p>
+            <a href="#">Order Now →</a>
+          </div>
+          <div class="service">
+            <h3>API Integration</h3>
+            <p>Developing and connecting APIs to improve project scalability and flexibility.</p>
+            <a href="#">Order Now →</a>
+          </div>
+          <div class="service">
+            <h3>Database Management</h3>
+            <p>Designing and optimizing relational databases for better performance and structure.</p>
+            <a href="#">Order Now →</a>
+          </div>
+          <div class="service">
+            <h3>Backend Optimization</h3>
+            <p>Refactoring and improving backend logic for faster, cleaner, and more secure code.</p>
+            <a href="#">Order Now →</a>
+          </div>
+          <div class="service">
+            <h3>Support & Maintenance</h3>
+            <p>Monitoring, testing, and maintaining websites to ensure seamless functionality.</p>
+            <a href="#">Order Now →</a>
+          </div>
+        </div>
       </section>
-    </main>
 
-    <footer class="footer">
-      <p>Built with ❤️ • <a href="https://github.com/">GitHub Pages</a> ready</p>
-    </footer>
+      <footer class="footer">
+        <p>© 2025 Mikhail Banchenko. Built with ❤️ • Hosted on <a href="#">GitHub Pages</a></p>
+      </footer>
+    </main>
   </div>
 </body>
 </html>
