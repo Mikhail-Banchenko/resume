@@ -1,6 +1,6 @@
 # Mikhail Banchenko — Web Developer Portfolio
 
-Welcome to my personal portfolio website repository!
+Welcome to my CV website repository!
 This project presents my experience, skills, and background as a **Web / PHP Developer**.
 The website serves as both an online CV and a digital space to showcase who I am and what I do.
 
@@ -33,6 +33,6 @@ I enjoy solving problems, learning new technologies, and building meaningful dig
 ---
 
 📬 **Contact me:**
-Email: [alonerealruby@gmail.com](mailto:alonerealruby@gmail.com)
-GitHub: [github.com/yourusername](https://github.com/Mikhail-Banchenko)
-LinkedIn: [linkedin.com/in/yourusername](https://www.linkedin.com/in/mikhail-banchenko-95638738a)
+* Email: [alonerealruby@gmail.com](mailto:alonerealruby@gmail.com)
+* GitHub: [github.com/yourusername](https://github.com/Mikhail-Banchenko)
+* LinkedIn: [linkedin.com/in/yourusername](https://www.linkedin.com/in/mikhail-banchenko-95638738a)
