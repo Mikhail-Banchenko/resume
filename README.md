@@ -1,4 +1,4 @@
-# Mikhail Banchenko — Web Developer Portfolio
+# Mikhail Banchenko — Web Developer CV
 
 Welcome to my CV website repository!
 This project presents my experience, skills, and background as a **Web / PHP Developer**.
